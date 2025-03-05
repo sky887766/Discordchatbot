@@ -119,11 +119,7 @@ class DiscordChatBot:
 
     def prepare_prompt(self, messages: List[Dict[str, Any]]) -> tuple[str, bool]:
         """准备发送给GPT的提示词并检查是否可以回复"""
-        prompt = (f'我这里有几十条聊天纪录依次列出来了，帮我回复一句话来承接他们的内容，要求如下：'
-                  f'1/聊天内容要更像真人，角色定位是个25岁左右的年轻用户；2/可以用标点符号表情，不要用emoji；'
-                  f'3/不要用hello这些语气词，一看就像是AI生成的；'
-                  f'4/回复的内容最好是一句话，不要超过两句话；5/直接写出内容即可，用{self.chat_language}回复\n')
-        # prompt = (f'我这里有几十条聊天纪录依次给你列出来了，我想你帮我回复一句话，承接他们的内容，要求如下：{self.my_demand}，用{self.chat_language}回复\n')
+        prompt = (f'我这里有几十条聊天纪录依次给你列出来了，我想你帮我回复一句话，承接他们的内容，要求如下：{self.my_demand}，用{self.chat_language}回复\n')
         message_count = 0
         can_reply = True
         for i in range(min(50, len(messages))):
