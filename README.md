@@ -55,7 +55,7 @@ https://discord.com/channels/1209630079936630824/1316229370372690042 那ChannelI
 | `IsWaitTime` | 等待时间（秒）（仅当 `IsWait=yes` 时生效） |
 
 ### 相关获取方法：在DC页面按下F12，然后点开设置找到下面的链接，可以获取Token和DiscordID
-![Discord 机器人配置示例](https://github.com/sky887766/Discordchatbot/blob/main/id.jpg "配置文件示例")
+![Discord 机器人配置示例](https://github.com/sky887766/Discordchatbot/blob/main/discord_id.jpg "配置文件示例")
 ![Discord 机器人配置示例](https://github.com/sky887766/Discordchatbot/blob/main/token.jpg "配置文件示例")
 
 ## 🚀 使用提示
