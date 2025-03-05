@@ -33,7 +33,7 @@
 |------|------|
 | `GptKey` | OpenAI API 密钥 |
 
-注册链接：https://api.v3.cm/register?aff=xDfN   介意可以删除邀请，注册充值好了后，在https://api.gpt.ge/panel/token获取你的KEY
+注册链接：https://api.v3.cm/register?aff=xDfN   介意可以删除邀请，注册充值好了后，在左侧边栏：令牌管理 获取你的KEY
 
 ### 时间间隔设置
 ⚠️ **注意**：最小时间应大于频道的慢速模式时间限制
