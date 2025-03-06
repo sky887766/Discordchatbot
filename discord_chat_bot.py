@@ -1,3 +1,4 @@
+# Author Twitter: https://x.com/sky_887766
 import os
 import random
 import time
